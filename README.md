@@ -32,4 +32,16 @@ L'option de npm qui permet d'installer uniquement les dépendances nécessaires 
 
 ![alt text](image-4.png)
 
-- Ensuite, J'ai configuré docker-compose.yml afin d'exécuter l'application ma_super_app avec sa base de données :
+- Ensuite, J'ai configuré docker-compose.yml afin d'exécuté l'application ma_super_app avec sa base de données :
+
+![alt text](image-5.png)
+
+- Après avoir apporté ces modifications, j'ai exécuté :
+
+![alt text](image-6.png)
+
+![alt text](image-7.png)
+
+---
+
+*by Nolan*
