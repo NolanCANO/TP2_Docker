@@ -27,3 +27,9 @@
 L'option de npm qui permet d'installer uniquement les dépendances nécessaires à l'exécution de l'application, et non les dépendances de développement, est --only=production ou --production. Dans mon cas, lorsque j'exécutez npm install --production, npm ne télécharge et n'installe que les paquets déclarés dans la section dependencies du fichier package.json et ignore ceux de devDependencies.
 
 # 3. A l’aide de la commande docker build, créer l’image ma_super_app
+
+- Pour commencer, j'ai utiliser la commande "*docker build -t ma_super_app*" :
+
+![alt text](image-4.png)
+
+- Ensuite, J'ai configuré docker-compose.yml afin d'exécuter l'application ma_super_app avec sa base de données :
