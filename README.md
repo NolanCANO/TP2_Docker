@@ -8,19 +8,19 @@
 
 - J'ai changé mon docker-compose.yml :
 
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 
 - J'ai changé mon Dockerfile :
 
-![alt text](image.png)
+![alt text](images/image.png)
 
 - J'ai testé avec un "*docker-compose up --build*" :
 
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
 - Et j'ai testé "*http://localhost:3000*" :
 
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
 ## a. Une option de npm vous permet de n’installer que ce qui est nécessaire. Quelle est cette option ? Quelle bonne pratique Docker permet t-elle de respecter ?
 
@@ -30,19 +30,19 @@ L'option de npm qui permet d'installer uniquement les dépendances nécessaires 
 
 ## J'ai utiliser la commande "*docker build -t ma_super_app*" :
 
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 
 # 4. Compléter le fichier docker-compose.yml afin d’éxécuter ma_super_app avec sa base de données.
 
 - J'ai changé la clé "*build: .*" pour "*image: ma_super_app:*"
 
-![alt text](image-5.png)
+![alt text](images/image-5.png)
 
 - Après avoir apporté ces modifications, j'ai exécuté :
 
-![alt text](image-6.png)
+![alt text](images/image-6.png)
 
-![alt text](image-7.png)
+![alt text](images/image-7.png)
 
 ---
 
