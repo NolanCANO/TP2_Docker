@@ -34,7 +34,7 @@ L'option de npm qui permet d'installer uniquement les dépendances nécessaires 
 
 # 4. Compléter le fichier docker-compose.yml afin d’éxécuter ma_super_app avec sa base de données.
 
-- J'ai configuré docker-compose.yml comme ceci:
+- J'ai changé la clé "*build: .*" pour "*image: ma_super_app:*"
 
 ![alt text](image-5.png)
 
