@@ -28,11 +28,13 @@ L'option de npm qui permet d'installer uniquement les dépendances nécessaires 
 
 # 3. A l’aide de la commande docker build, créer l’image ma_super_app
 
-- Pour commencer, j'ai utiliser la commande "*docker build -t ma_super_app*" :
+## J'ai utiliser la commande "*docker build -t ma_super_app*" :
 
 ![alt text](image-4.png)
 
-- Ensuite, J'ai configuré docker-compose.yml afin d'exécuté l'application ma_super_app avec sa base de données :
+# 4. Compléter le fichier docker-compose.yml afin d’éxécuter ma_super_app avec sa base de données.
+
+- J'ai configuré docker-compose.yml comme ceci:
 
 ![alt text](image-5.png)
 
